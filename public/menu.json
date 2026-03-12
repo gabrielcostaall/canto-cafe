@@ -1,0 +1,56 @@
+{
+  "restaurant": "Canto Café",
+  "categories": [
+    {
+      "name": "Cafés",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Café espresso tradicional",
+          "price": "R$6",
+          "image": "https://picsum.photos/400/300?1"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Café com leite vaporizado e espuma",
+          "price": "R$10",
+          "image": "https://picsum.photos/400/300?2"
+        }
+      ]
+    },
+    {
+      "name": "Salgados",
+      "items": [
+        {
+          "name": "Pão de Queijo",
+          "description": "Porção com 6 unidades",
+          "price": "R$8",
+          "image": "https://picsum.photos/400/300?3"
+        },
+        {
+          "name": "Sanduíche Natural",
+          "description": "Frango com maionese caseira",
+          "price": "R$14",
+          "image": "https://picsum.photos/400/300?4"
+        }
+      ]
+    },
+    {
+      "name": "Doces",
+      "items": [
+        {
+          "name": "Brownie",
+          "description": "Brownie de chocolate artesanal",
+          "price": "R$9",
+          "image": "https://picsum.photos/400/300?5"
+        },
+        {
+          "name": "Torta de Limão",
+          "description": "Fatia de torta com merengue",
+          "price": "R$12",
+          "image": "https://picsum.photos/400/300?6"
+        }
+      ]
+    }
+  ]
+}

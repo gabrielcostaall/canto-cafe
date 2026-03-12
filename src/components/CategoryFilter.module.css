@@ -1,0 +1,39 @@
+.wrapper {
+  background: #2C1810;
+  padding-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 8px;
+  padding: 0 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  flex-shrink: 0;
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1.5px solid rgba(196, 122, 26, 0.35);
+  background: transparent;
+  color: rgba(245, 237, 216, 0.6);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn.active {
+  background: #C47A1A;
+  border-color: #C47A1A;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(196, 122, 26, 0.4);
+}

@@ -1,0 +1,71 @@
+.header {
+  background: #2C1810;
+  padding: 36px 24px 28px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 160px; height: 160px;
+  border-radius: 50%;
+  background: rgba(196, 122, 26, 0.15);
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -30px; left: -30px;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: rgba(196, 122, 26, 0.10);
+}
+
+.logoCircle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #C47A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 28px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 4px 20px rgba(196, 122, 26, 0.4);
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #F5EDD8;
+  letter-spacing: -0.5px;
+  position: relative;
+  z-index: 1;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #C47A1A;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 6px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.divider {
+  width: 40px;
+  height: 1px;
+  background: rgba(196, 122, 26, 0.5);
+  margin: 14px auto 0;
+  position: relative;
+  z-index: 1;
+}
